@@ -1,7 +1,7 @@
 /*
 Author; David Burton
 Date; 3/3/2017
-Purpose of code; 
+Purpose of code;
 */
 
 #include<stdio.h>
@@ -9,5 +9,15 @@ Purpose of code;
 int main()
 {
   printf("Hello Phil!\n");
+
+
+  int i;
+
+  for(i = 0; i < 10; i++)
+  {
+    printf("%d", i);
+  }
+
   printf("\nHi back dave, here is a nice change :)\n");
+
 }
